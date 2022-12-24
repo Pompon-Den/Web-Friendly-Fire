@@ -437,17 +437,37 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto 2% auto;
     width: 70%;
     height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .input__zone {
-    margin: 1% 0;
-    height: 27%;
+    border: none;
+    margin: 2% 0;
+    height: 30%;
     width: 100%;
     background: #5B5B5B;
     border-radius: 10px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-indent: 5%;
 }
 
+.input__zone::placeholder {color: #ADADAD;}
+
 .button_reg {
-    margin: 0 auto;
+    margin: 10% auto;
+    border: none;
+    background: none;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    text-indent: 0;
+    color: white;
+
+    text-align: center;
 }
 
