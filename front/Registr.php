@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Регистрация</title>
-    <link rel="stylesheet" href="css/style.css"></link>>
+    <link rel="stylesheet" href="assets/css/style.css"></link>>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
   <header class="header">
     <div class="container">
       <div class="header__inner">
-        <img class="header__logo" src="images/LogoMini.png"></img>
+        <img class="header__logo" src="assets/images/LogoMini.png"></img>
 
         <div class="nav">
           <a class="nav__link" href="#">Гараж</a>
