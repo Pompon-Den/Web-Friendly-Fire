@@ -1,6 +1,9 @@
 body {
+    padding: 0;
     margin: 0;
     background: #252525;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
 }
 
 *,
@@ -12,8 +15,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     text-transform: uppercase;
-    font-style: normal;
-    font-family: 'Roboto', sans-serif;
 }
 
 /* Intro */
@@ -58,6 +59,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 0 3vw;
     width: 39px;
     height: 60px;
+
+    background-image: url('../images/LogoMini.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .nav {
@@ -96,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .stick {
     margin: 2vh 0 0 0;
-    width: 52px;
+    width: 7vh;
     height: 0;
 
     background: #252525;
@@ -129,6 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 
     background-image: url('../images/Box.png');
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .circle {
@@ -139,6 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 
     background-image: url('../images/Circle.png');
     background-repeat: no-repeat;
+    background-size: contain;
 
     text-align: center;
 
@@ -156,6 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 
     background-image: url('../images/UserStatusOff.png');
     background-repeat: no-repeat;
+    background-size: contain;
     cursor: pointer;
 }
 
@@ -166,6 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 
     background-image: url('../images/UserStatusOn.png');
     background-repeat: no-repeat;
+    background-size: contain;
     cursor: pointer;
 }
 
@@ -173,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main {
     margin: 1vh 5vw;
-    height: 520vh;
+    height: 480vh;
 }
 
 .privet {
@@ -192,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .whiteBlock {
-    margin: 10vh auto;
+    margin: 0 auto;
     width: 100%;
     height: 100%;
     background: #FFF0E7;
@@ -200,6 +209,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blackBlock {
+    padding-top: 5%;
     margin: 0;
     width: 100%;
     height: 100%;
@@ -296,6 +306,205 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+.game_list__inner {
+    width: 100%;
+    height: 100%;
+}
+
+.game_list_name {
+    padding: 5%;
+    height: 30%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #E17521;
+    text-indent: 2%;
+}
+
+.game_list {
+    width: 100%;
+    height: 35%;
+    display: grid;
+    grid-column-gap: 0;
+    grid-template-columns: repeat(4, 100%);
+    grid-template-rows: 100%;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+}
+
+.img {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 40%;
+    background-image: url('../images/We.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.down_game_list {
+    margin: 0 auto;
+    width: 90%;
+    height: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.down_game_list_left {
+    height: 100%;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: black;
+    word-wrap: normal;
+    display: flex;
+    align-items: center;
+}
+
+.down_game_list_right {
+    height: 100%;
+    width: 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 70%;
+    height: 30%;
+    background: #E17521;
+    border: 4px solid #252525;
+    border-radius: 51px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.name_team {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E17521;
+    font-size: 36px;
+}
+
+.team_container {
+    padding-top: 5%;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_el {
+    width: 17%;
+    height: 95%;
+}
+
+.img_team2 {
+    width: 100%;
+    height: 60%;
+    background-image: url("../images/Ulyana.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img_team3 {
+    width: 100%;
+    height: 60%;
+    background-image: url("../images/Vlad.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img_team4 {
+    width: 100%;
+    height: 60%;
+    background-image: url("../images/Roma.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img_team5 {
+    width: 100%;
+    height: 60%;
+    background-image: url("../images/Sveta.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img_team1 {
+    width: 100%;
+    height: 60%;
+    background-image: url("../images/Danil.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.team_text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+.merch_inner {
+    margin: auto;
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_merch {
+    width: 50%;
+    height: 80%;
+
+    color: black;
+    font-size: 24px;
+}
+
+.merch_text {
+    margin: 10% 0;
+    height: 40%;
+    width: 70%;
+    font-size: 22px;
+    word-wrap: normal;
+
+}
+.merch_button {
+    display: flex;
+    height: 35%;
+    width: 70%;
+}
+
+.right_merch {
+    margin: auto;
+    width: 50%;
+    height: 90%;
+
+    display: flex;
+    align-items: center;
+}
+
+.merch_img {
+    margin: auto;
+    width: 100%;
+    height: 80%;
+
+    background-image: url('../images/Merch.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 /*Footer*/
 
 .footer {
@@ -387,7 +596,7 @@ h1, h2, h3, h4, h5, h6 {
 .lapa {
     position: absolute;
     margin: 10% 8%;
-    width: 50%;
+    width: 20%;
     height: 50%;
     background-image: url('../images/Lapa.png');
     background-repeat: no-repeat;
@@ -429,10 +638,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .change__input {
     margin: auto 0;
+    cursor: pointer;
 }
 
 .change__registration {
     margin: auto 0;
+    cursor: pointer;
 }
 
 .form {
@@ -471,6 +682,8 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 
     text-align: center;
+
+    cursor: pointer;
 }
 
 .main__merch {

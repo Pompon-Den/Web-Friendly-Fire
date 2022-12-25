@@ -51,7 +51,7 @@
         <input class="input__zone" type="password" name="password" placeholder="Пароль*">
         <button class="button_reg"><h5>Войти</h5></button>
       </form>
-      <form class="form"  action="..\back\registr-func.php" id="formReg" method="post" >
+      <form class="form"  action="../back/registr-func.php" id="formReg" method="post" >
         <input class="input__zone" type="email" name="email" placeholder="Email*">
         <input class="input__zone" type="text" name="data" placeholder="Дата рождения">
         <input class="input__zone" type="password" name="password" placeholder="Пароль*">

@@ -20,3 +20,20 @@ function clickForm(number) {
         document.getElementById("block").style.height="100vh"
     }
 }
+
+slide();
+
+function slide() {
+    window.setTimeout(function () {
+        scroll()
+    }, 50)
+}
+
+function scroll() {
+    const moveNum = document.querySelector('.img').offsetWidth / 2;
+    document.querySelector('.game_list').scrollBy({
+        left: 10,
+        behavior: 'smooth'
+    });
+    slide()
+}
