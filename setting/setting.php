@@ -5,7 +5,7 @@
     $password = "";
     $db = "FriendlyFire";
     $connect = mysqli_connect($host, $user, $password, $db);
-
+    //die("aaa");
     if (!$connect) 
         die("Connection Error");
 
