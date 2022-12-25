@@ -46,7 +46,7 @@
         <div class="change__input" onclick="clickForm(1)">Вход</div>
         <div class="change__registration" onclick="clickForm(2)">Регистрация</div>
       </div>
-      <form class="form"  action="..\back\auth.php" id="formIn" method="post" >
+      <form class="form" action="../back/auth.php"  id="formIn" method="post" >
         <input class="input__zone" type="email" name="email" placeholder="Email*">
         <input class="input__zone" type="password" name="password" placeholder="Пароль*">
         <button class="button_reg"><h5>Войти</h5></button>
