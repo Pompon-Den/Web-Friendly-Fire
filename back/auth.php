@@ -13,7 +13,7 @@ $email = $password = "";
 $email = test_input($_POST["email"]);
 $password = hash('whirlpool', htmlspecialchars($_POST["password"]));
 
-//header('Location: ../front/index.html');
+header('Location: ../front/index.html');
 
 $result = mysqli_query($connect, " SELECT * FROM `guest` 
                 WHERE `login` = '$email' AND `password` = '$password';");
