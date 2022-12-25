@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <script src="js/script.js"></script>
+    <script src="assets/js/script.js"></script>
     <meta name="description" content="Регистрация нового пользователя"/>
   </head>
   <body>
@@ -46,18 +46,23 @@
         <div class="change__input" onclick="clickForm(1)">Вход</div>
         <div class="change__registration" onclick="clickForm(2)">Регистрация</div>
       </div>
-      <form class="form" id="formIn" method="post">
+      <form class="form"  action="..\back\auth.php" id="formIn" method="post" >
         <input class="input__zone" type="email" name="email" placeholder="Email*">
         <input class="input__zone" type="password" name="password" placeholder="Пароль*">
         <button class="button_reg"><h5>Войти</h5></button>
       </form>
-      <form class="form" id="formReg" method="post" style="display: none">
+      <form class="form"  action="..\back\registr-func.php" id="formReg" method="post" >
         <input class="input__zone" type="email" name="email" placeholder="Email*">
-        <input class="input__zone" type="password" name="password" placeholder="Дата рождения">
+        <input class="input__zone" type="text" name="data" placeholder="Дата рождения">
         <input class="input__zone" type="password" name="password" placeholder="Пароль*">
-        <input class="input__zone" type="password" name="password" placeholder="Подтверждение пароля*">
+        <input class="input__zone" type="password" name="password2" placeholder="Подтверждение пароля*">
         <button class="button_reg"><h5>Зарегистрироваться</h5></button>
       </form>
+      <script>
+        document.getElementById("formReg").style.display="none"
+        document.getElementById("formIn").style.display="flex"
+        document.getElementById("block").style.height="70vh"
+      </script>
     </div>
   </div>
 
