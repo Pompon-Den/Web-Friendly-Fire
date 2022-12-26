@@ -1,5 +1,7 @@
 <?php require_once "../setting/setting.php";?>
 
+<div class="ots"></div>
+
 <div class="main__merch">
     <h1 class="merch__text">Маркет</h1>
     <ul class="table">

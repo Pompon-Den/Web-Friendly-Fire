@@ -1,3 +1,5 @@
+<div class="ots"></div>
+
 <div class="main__games">
     <h1 class="games__text">Проекты</h1>
     <ul class="table_g">

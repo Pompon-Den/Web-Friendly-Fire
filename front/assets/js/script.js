@@ -9,13 +9,12 @@ function changeIconOfRegistration() {
 }
 
 function headerOnOff() {
-    if(document.querySelector('.header').style.display === 'none') {
-        document.querySelector('.button_open_close').style.backgroundImage = "url('assets/images/x.png')";
-        document.querySelector('.header').style.display = 'block';
-    }
-    else {
+    if(document.querySelector('.header').style.display === 'block') {
         document.querySelector('.header').style.display = 'none';
         document.querySelector('.button_open_close').style.backgroundImage = "url('assets/images/menu.png')";
     }
-
+    else {
+        document.querySelector('.button_open_close').style.backgroundImage = "url('assets/images/x.png')";
+        document.querySelector('.header').style.display = 'block';
+    }
 }
