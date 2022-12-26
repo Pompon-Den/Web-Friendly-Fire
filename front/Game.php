@@ -1,3 +1,5 @@
+<script>document.querySelector('.header').style.position = 'absolute';</script>
+
 <div class="intro"></div>
     <h1 class="name">Название</h1>
     <br>

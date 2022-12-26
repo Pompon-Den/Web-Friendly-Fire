@@ -1,3 +1,5 @@
+<script>document.querySelector('.header').style.position = 'absolute';</script>
+
 <div class="intro"></div>
 <div class="main">
     <h1 class="privet">ДОБРО ПОЖАЛОВАТЬ К FRIENDLY FIRE</h1>

@@ -8,3 +8,14 @@ function changeIconOfRegistration() {
         ("user__status__link__on", "user__status__link__off")
 }
 
+function headerOnOff() {
+    if(document.querySelector('.header').style.display === 'none') {
+        document.querySelector('.button_open_close').style.backgroundImage = "url('assets/images/x.png')";
+        document.querySelector('.header').style.display = 'block';
+    }
+    else {
+        document.querySelector('.header').style.display = 'none';
+        document.querySelector('.button_open_close').style.backgroundImage = "url('assets/images/menu.png')";
+    }
+
+}
