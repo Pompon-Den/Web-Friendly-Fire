@@ -44,7 +44,7 @@
 
 .info {
     width: 90%;
-    height: 90%;
+    height: 60%;
 
     display: flex;
     justify-content: space-between;
@@ -86,8 +86,8 @@
 }
 
 .we__question__black {
-    margin: 0 30%;
-    height: 10%;
+    margin: 0 auto;
+    height: 40%;
     width: 40%;
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
@@ -105,29 +105,32 @@
 }
 
 .alina {
-    margin: 10% 5%;
-    width: 70%;
-    height: 70%;
+    margin: auto;
+    width: 100%;
+    height: 100%;
     background-image: url('../images/Alina.png');
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     border-radius: 10px;
 }
 
 .we__block__black {
-    margin: 20% 5%;
+    margin: auto;
     width: 100%;
-    height: 40%;
+    height: 60%;
 
     border: 4px solid #E17521;
     border-radius: 40px;
+
+    display: flex;
+    align-items: center;
 }
 
 .we__text__black {
-    margin: 6.25% 12.5%;
+    margin: auto;
     width: 80%;
     height: 75%;
-    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: white;
     text-align: center;
