@@ -39,6 +39,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
     margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .header__inner {
@@ -52,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 .header__logo {
     margin: 0 0 0 3%;
     width: 5%;
-    height: 50%;
+    height: 80%;
 
     background-image: url('../images/LogoMini.png');
     background-repeat: no-repeat;
@@ -106,8 +108,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .users__icons {
     height: 100%;
+    width: 12%;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
+    align-items: center;
 }
 
 .user__box__link {
@@ -153,24 +157,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .user__status__link__off {
-    margin: 0 2vw;
-    height: 100%;
-    width: 53px;
+    margin: 0 5%;
+    height: 80%;
+    width: 5%;
 
     background-image: url('../images/UserStatusOff.png');
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     cursor: pointer;
 }
 
 .user__status__link__on {
-    margin: 0 2vw;
-    height: 100%;
-    width: 53px;
+    margin: 0 5%;
+    height: 80%;
+    width: 5%;
 
     background-image: url('../images/UserStatusOn.png');
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     cursor: pointer;
 }
 
