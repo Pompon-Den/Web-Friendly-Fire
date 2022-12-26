@@ -40,7 +40,7 @@ if (empty($_POST["email"])) {
     $result1 = mysqli_query($connect, " SELECT * FROM  `guest` WHERE `login` = '$email';");
     $user1 = $result1->fetch_assoc();
     if (!empty($user1)) {
-       $emailErr = "Данный e-mail уже используется!";
+       echo "Данный e-mail уже используется!";
     }
     else {
     mysqli_query($connect, " INSERT INTO `guest` (`id`, `login`, `password`, `type`) VALUES (NULL,  '$email', '$password', 'auth');");
