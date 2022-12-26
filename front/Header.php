@@ -1,7 +1,7 @@
 <header class="header">
         <div class="container">
             <div class="header__inner">
-                <img class="header__logo" src="assets/images/LogoMini.png"></img>
+                <div class="header__logo"></div>
 
                 <div class="nav">
                     <a class="nav__link" href="#">Гараж</a>
