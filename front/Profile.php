@@ -32,10 +32,10 @@
                             <div class="profile_name_sub_sub">Подтвердите пароль</div>
                             <div class="input"><span>f</span></div>
                         </div>
-                        <a href = "../back/signOut.php" >Выход</a>
                     </div>
                 </div>
             </div>
-            <button class="button_save">Сохранить</button>
+            <a class="button_save"><span>Сохранить</span></a>
+            <a class="button_save"  href = "../back/signOut.php" ><span>Выход</span></a>
         </div>
 </div>

@@ -1,7 +1,18 @@
+<?php require_once "../setting/setting.php";?>
+<?php 
+    $gamename = $_GET["game"];
+    print_r($gamename);
+    $result = mysqli_query($connect, " SELECT * FROM `games`;");
+    $info = $result->fetch_all(); 
+    foreach ($info as $infogame) {
+        if ($infogame[1] == $gamename) {
+            $img = "assets/images/".$infogame[3];
+?>
+
 <script>document.querySelector('.header').style.position = 'absolute';</script>
 
 <div class="intro"></div>
-    <h1 class="name">Название</h1>
+    <h1 class="name"><?=$infogame[1]?></h1>
     <br>
     <div class="main__game">
         <div class="whiteBlock">
@@ -10,16 +21,17 @@
                     <h2 class="opis__text">Описание</h2>
                     <div class="game__text" id="test">
                         <span>
-                            Описание
+                            <?=$infogame[2]?>
                         </span>
                     </div>
                     <div class="link__zone">
-                        <div class="itch" href="#"></div>
+                        <a href=<?=$infogame[4]?> ><div class="itch"></div></a>
                     </div>
                 </div>
                 <div class="right_game">
-                    <div class="imageGame"></div>
+                    <img class="imageGame" src=<?=$img?>></img>
                 </div>
             </div>
         </div>
     </div>
+<? } } ?>

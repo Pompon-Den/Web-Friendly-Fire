@@ -43,10 +43,10 @@
                 <div class="users__icons">
                     <?php session_start();
                     if ( $_SESSION["email"] == "" )  { ?>
-                        <a class = "user__status__link__off" id="userStatus" href="../front/Registr.php"></a>
+                        <a class = "user__status__link__off" id="userStatus" href="index.php?page=Registr"></a>
                     <?php } 
                     if ( $_SESSION["email"] != "" ) { ?>
-                        <a class = "user__status__link__on" id="userStatus" href="../front/Profile.php"></a>
+                        <a class = "user__status__link__on" id="userStatus" href="index.php?page=Profile"></a>
                     <?php } ?>
                 </div>
             </div>
@@ -54,16 +54,13 @@
 </header>
 
 <?php
-
 $href = $_GET["page"];
 if (isset($href) ) {
     require($href.".php");
 }
 else {
-    require("Main.php");
+    require("Profile.php");
 }
-
-
 ?>
 
 <footer class="footer">

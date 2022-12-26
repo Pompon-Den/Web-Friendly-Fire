@@ -10,11 +10,7 @@
     <?php foreach ($product as $prod) { 
         $img = "assets/images/".$prod[4];?>
         <li class="table_el">
-            <div class="foto"></div>
-            <h3>Название</h3>
-            <div class="podr">
-                <span style="color: #E17521">130р.</span>
-            <img class="foto" src=<?=$img?>></img> 
+            <a href=<?=$prod[5]?>><img class="foto" src=<?=$img?>></img></a> 
             <h3><?=$prod[1]?></h3>
             <div class="buy">
                 <span style="color: #E17521"><?=$prod[3]?> руб.</span>
