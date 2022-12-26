@@ -1,12 +1,16 @@
+
+<?require_once "../setting/setting.php";?>
+
 <div style="height: 20vh"></div>
 <div class="main__merch">
     <h1 class="merch__text">Мерч</h1>
     <ul class="table">
+        <? $result = mysqli_query($connect, " SELECT * FROM `product` ");
+            $product = $result->fetch_all(); ?>
     <?php foreach ($product as $prod) { 
         $img = "assets/images/".$prod[4];?>
         <li class="table_el">
             <img class="foto" src=<?=$img?>></img> 
-
             <h3><?=$prod[1]?></h3>
             <div class="buy">
                 <span style="color: #E17521"><?=$prod[3]?> руб.</span>
