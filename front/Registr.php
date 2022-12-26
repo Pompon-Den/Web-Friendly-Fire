@@ -1,4 +1,3 @@
-<div style="height: 20vh"></div>
 <h1 class="input__text">Личный кабинет</h1>
 <div class="main__registr" id="block">
     <div class="lapa"></div>

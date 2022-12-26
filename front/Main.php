@@ -27,7 +27,7 @@
                 <span style="color: #E17521">маленькие</span>, но нам это
                 <span style="color: #E17521">не</span> мешает
             </h2>
-            <div class="info2">
+            <div class="info">
                 <div class="we__left__black">
                     <div class="alina"></div>
                 </div>
@@ -118,7 +118,6 @@
                         <span class="name_t">Света</span>
                         <br>
                         <span class="class_t">завхоз, художник</span>
-                        <br>
                         сгорела на работе
                     </div>
                 </div>

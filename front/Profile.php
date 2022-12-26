@@ -31,6 +31,7 @@
                             <div class="profile_name_sub_sub">Подтвердите пароль</div>
                             <div class="input"><span>f</span></div>
                         </div>
+                        <a href = "../back/signOut.php" >Выход</a>
                     </div>
                 </div>
             </div>
