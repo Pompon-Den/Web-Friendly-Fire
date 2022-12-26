@@ -7,3 +7,4 @@ function changeIconOfRegistration() {
         document.getElementById("userStatus").classList.replace
         ("user__status__link__on", "user__status__link__off")
 }
+

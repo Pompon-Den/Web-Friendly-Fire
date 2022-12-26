@@ -1,98 +1,206 @@
-.main__registr {
-    margin: 0 auto;
-    width: 99vw;
-    height: 70vh;
+@media screen and (min-width: 680px){
+    .main__registr {
+        margin: 0 auto;
+        width: 99vw;
+        height: 70vh;
+
+        display: flex;
+        justify-content: left;
+    }
+
+    .lapa {
+        margin: 5% 2.5%;
+        width: 25%;
+        height: 50%;
+        background-image: url('../images/Lapa.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .input__text {
+        margin: 10% 0 1% 0;
+        font-family: 'Roboto', sans-serif;
+        font-size: 48px;
+        color: white;
+        text-align: center;
+    }
+
+    .block {
+        width: 40%;
+        height: 70%;
+        border: 4px solid #E17521;
+        border-radius: 40px;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .change {
+        margin: 0 auto 5% auto;
+        width: 60%;
+        height: 20%;
+        display: flex;
+        justify-content: space-between;
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 28px;
+        color: white;
+        text-align: center;
+    }
+
+    .change__input {
+        margin: auto 0;
+        cursor: pointer;
+    }
+
+    .change__registration {
+        margin: auto 0;
+        cursor: pointer;
+    }
+
+    .form {
+        margin: 0 auto 2% auto;
+        width: 70%;
+        height: 80%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .input__zone {
+        border: none;
+        margin: 2% 0;
+        height: 30%;
+        width: 100%;
+        background: #5B5B5B;
+        border-radius: 10px;
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        text-indent: 5%;
+    }
+
+    .input__zone::placeholder {color: #ADADAD;}
+
+    .button_reg {
+        margin: 10% auto;
+        border: none;
+        background: none;
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 32px;
+        text-indent: 0;
+        color: white;
+
+        text-align: center;
+
+        cursor: pointer;
+    }
 }
 
-.lapa {
-    position: absolute;
-    margin: 10% 8%;
-    width: 20%;
-    height: 50%;
-    background-image: url('../images/Lapa.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
+@media screen and (max-width: 680px){
+    .main__registr {
+        margin: 0 auto;
+        width: 100vw;
+        height: 80vh;
 
-.input__text {
-    margin: 10% 0 1% 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 48px;
-    color: white;
-    text-align: center;
-}
+        display: flex;
+        justify-content: left;
+        flex-direction: column-reverse;
+    }
 
-.block {
-    margin: 0 auto;
-    width: 35%;
-    height: 70%;
-    border: 4px solid #E17521;
-    border-radius: 40px;
+    .lapa {
+        margin: auto;
+        width: 50%;
+        height: 50%;
+        background-image: url('../images/Lapa.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+    .input__text {
+        margin: 5%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        color: white;
+    }
 
-.change {
-    margin: 0 auto 5% auto;
-    width: 60%;
-    height: 20%;
-    display: flex;
-    justify-content: space-between;
+    .block {
+        margin: 10% auto;
+        width: 90%;
+        height: 70%;
+        border: 4px solid #E17521;
+        border-radius: 40px;
 
-    font-family: 'Roboto', sans-serif;
-    font-size: 28px;
-    color: white;
-    text-align: center;
-}
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 
-.change__input {
-    margin: auto 0;
-    cursor: pointer;
-}
+    .change {
+        margin: 0 auto 5% auto;
+        width: 60%;
+        height: 20%;
+        display: flex;
+        justify-content: space-between;
 
-.change__registration {
-    margin: auto 0;
-    cursor: pointer;
-}
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        color: white;
+        text-align: center;
+    }
 
-.form {
-    margin: 0 auto 2% auto;
-    width: 70%;
-    height: 80%;
+    .change__input {
+        margin: auto 0;
+        cursor: pointer;
+    }
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+    .change__registration {
+        margin: auto 0;
+        cursor: pointer;
+    }
 
-.input__zone {
-    border: none;
-    margin: 2% 0;
-    height: 30%;
-    width: 100%;
-    background: #5B5B5B;
-    border-radius: 10px;
+    .form {
+        margin: 0 auto 2% auto;
+        width: 70%;
+        height: 80%;
 
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    text-indent: 5%;
-}
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
-.input__zone::placeholder {color: #ADADAD;}
+    .input__zone {
+        border: none;
+        margin: 2% 0;
+        height: 30%;
+        width: 100%;
+        background: #5B5B5B;
+        border-radius: 10px;
 
-.button_reg {
-    margin: 10% auto;
-    border: none;
-    background: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        text-indent: 5%;
+    }
 
-    font-family: 'Roboto', sans-serif;
-    font-size: 32px;
-    text-indent: 0;
-    color: white;
+    .input__zone::placeholder {color: #ADADAD;}
 
-    text-align: center;
+    .button_reg {
+        margin: 10% auto;
+        border: none;
+        background: none;
 
-    cursor: pointer;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        text-indent: 0;
+        color: white;
+
+        text-align: center;
+
+        cursor: pointer;
+    }
 }

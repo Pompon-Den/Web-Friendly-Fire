@@ -1,73 +1,151 @@
-.name{
-    margin: 2vh auto;
-    font-family: 'Roboto', sans-serif;
-    font-size: 52px;
-    color: white;
-    text-align: center;
+@media screen and (min-width: 680px){
+    .name{
+        margin: 2vh auto;
+        font-family: 'Roboto', sans-serif;
+        font-size: 52px;
+        color: white;
+        text-align: center;
+    }
+
+    .main__game {
+        margin: 0 auto;
+        width: 90%;
+        height: 80vh;
+    }
+
+    .left_game {
+        margin: auto 0;
+        width: 55%;
+        height: 100%;
+    }
+
+    .right_game {
+        display: flex;
+        align-items: center;
+        width: 40%;
+        height: 100%;
+    }
+
+    .opis__text {
+        width: 100%;
+        height: 15%;
+        font-size: 44px;
+        color: #E17521;
+    }
+
+    .in_white {
+        padding: 4% 0;
+        margin: auto;
+        height: 100%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .game__text {
+        width: 100%;
+        height: 70%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 28px;
+        color: black;
+        word-wrap: break-word;
+    }
+
+    .link__zone {
+        width: 100%;
+        height: 15%;
+    }
+    .itch {
+        height: 90%;
+        width: 100%;
+        background-image: url('../images/itchIcon.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        cursor: pointer;
+    }
+
+    .imageGame {
+        height: 70%;
+        width: 100%;
+        background-image: url('../images/introBack.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
 }
 
-.main__game {
-    margin: 0 auto;
-    width: 90%;
-    height: 80vh;
-}
+@media screen and (max-width: 680px){
+    .name{
+        margin: 2vh auto;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
 
-.left_game {
-    margin: auto 0;
-    width: 55%;
-    height: 100%;
-}
+    .main__game {
+        margin: 0 auto;
+        width: 90%;
+        height: 80vh;
+    }
 
-.right_game {
-    display: flex;
-    align-items: center;
-    width: 40%;
-    height: 100%;
-}
+    .left_game {
+        margin: auto;
+        width: 100%;
+        height: 100%;
+    }
 
-.opis__text {
-    width: 100%;
-    height: 15%;
-    font-size: 44px;
-    color: #E17521;
-}
+    .right_game {
+        display: none;
+        align-items: center;
+        width: 40%;
+        height: 100%;
+    }
 
-.in_white {
-    padding: 4% 0;
-    margin: auto;
-    height: 100%;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-}
+    .opis__text {
+        width: 100%;
+        height: 15%;
+        font-size: 18px;
+        color: #E17521;
+    }
 
-.game__text {
-    width: 100%;
-    height: 70%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 28px;
-    color: black;
-    word-wrap: break-word;
-}
+    .in_white {
+        padding: 10% 0;
+        margin: auto;
+        height: 100%;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
 
-.link__zone {
-    width: 100%;
-    height: 15%;
-}
-.itch {
-    height: 90%;
-    width: 100%;
-    background-image: url('../images/itchIcon.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    cursor: pointer;
-}
+    .game__text {
+        width: 100%;
+        height: 75%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: black;
+        word-wrap: break-word;
+    }
 
-.imageGame {
-    height: 70%;
-    width: 100%;
-    background-image: url('../images/introBack.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    .link__zone {
+        width: 100%;
+        height: 10%;
+    }
+    .itch {
+        height: 90%;
+        width: 100%;
+        background-image: url('../images/itchIcon.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        cursor: pointer;
+    }
+
+    .imageGame {
+        height: 70%;
+        width: 100%;
+        background-image: url('../images/introBack.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
 }

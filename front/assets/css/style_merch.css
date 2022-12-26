@@ -1,71 +1,151 @@
-.main__merch {
-    margin: 0 auto;
-    width: 80%;
-    height: var(--count-of-merch, 80vh);
+@media screen and (min-width: 680px){
+    .main__merch {
+        margin: 0 auto;
+        width: 80%;
+        height: var(--count-of-merch, 80vh);
+    }
+
+    .main__merch:nth-child(n) {
+        --count-of-merch: 80h;
+    }
+
+    .table {
+        width: 100%;
+        height: 100%;
+        list-style: none;
+
+        display:block;
+
+    }
+
+    ul li {
+        display:inline-block;
+    }
+
+    .table_el {
+        padding: 1%;
+        width: 30%;
+        min-height: 30%;
+        max-width: 30%;
+        height: 55vh;
+
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        color: white;
+        text-transform: uppercase;
+
+        cursor: pointer;
+    }
+
+    .table_el:hover .buy__text{
+        display: flex;
+    }
+
+    .buy__text {
+        display: none;
+    }
+
+    .foto {
+        width: 100%;
+        height: 80%;
+        background: url("../images/introBack.png") center
+        no-repeat;
+        background-size: cover;
+
+        border-radius: 40px;
+        border: 4px solid #E17521;
+    }
+
+    .buy {
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .merch__text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 48px;
+        color: white;
+        text-align: center;
+    }
 }
 
-.main__merch:nth-child(n) {
-    --count-of-merch: 80h;
+@media screen and (max-width: 680px){
+    .main__merch {
+        margin: 0 auto;
+        width: 100%;
+        height: var(--count-of-merch, 80vh);
+    }
+
+    .main__merch:nth-child(n) {
+        --count-of-merch: 80h;
+    }
+
+    .table {
+        margin: 0 auto;
+        width: 90%;
+        height: 100%;
+        list-style: none;
+
+        display:block;
+
+    }
+
+    ul li {
+        display:inline-block;
+    }
+
+    .table_el {
+        margin: 0 auto;
+        padding: 5% 0;
+        width: 100%;
+        min-height: 80%;
+        max-width: 80%;
+        height: 55vh;
+
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        color: white;
+        text-transform: uppercase;
+
+        cursor: pointer;
+    }
+
+    .table_el:hover .buy__text{
+        display: flex;
+    }
+
+    .buy__text {
+        display: none;
+    }
+
+    .foto {
+        width: 100%;
+        height: 80%;
+        background: url("../images/introBack.png") center
+        no-repeat;
+        background-size: cover;
+
+        border-radius: 40px;
+        border: 4px solid #E17521;
+    }
+
+    .buy {
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .merch__text {
+        margin: 0 5% 5%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: white;
+    }
 }
 
-.table {
-    width: 100%;
-    height: 100%;
-    list-style: none;
 
-    display:block;
-
-}
-
-ul li {
-    display:inline-block;
-}
-
-.table_el {
-    padding: 1%;
-    width: 30%;
-    min-height: 30%;
-    max-width: 30%;
-    height: 55vh;
-
-
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-    color: white;
-    text-transform: uppercase;
-
-    cursor: pointer;
-}
-
-.table_el:hover .buy__text{
-    display: flex;
-}
-
-.buy__text {
-    display: none;
-}
-
-.foto {
-    width: 100%;
-    height: 80%;
-    background: url("../images/introBack.png") center
-    no-repeat;
-    background-size: cover;
-
-    border-radius: 40px;
-    border: 4px solid #E17521;
-}
-
-.buy {
-    height: 20%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.merch__text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 48px;
-    color: white;
-    text-align: center;
-}

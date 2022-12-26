@@ -1,6 +1,6 @@
 <div style="height: 20vh"></div>
 <div class="main__merch">
-    <h1 class="merch__text">Мерч</h1>
+    <h1 class="merch__text">Маркет</h1>
     <ul class="table">
         <li class="table_el">
             <div class="foto"></div>

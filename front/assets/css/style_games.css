@@ -1,72 +1,151 @@
-.main__games {
-    margin: 0 auto;
-    width: 80%;
-    height: var(--count-of-merch, 80vh);
+@media screen and (min-width: 680px){
+    .main__games {
+        margin: 0 auto;
+        width: 80%;
+        height: var(--count-of-merch, 80vh);
+    }
+
+    .main__games:nth-child(n) {
+        --count-of-merch: 80h;
+    }
+
+    .table_g {
+        width: 100%;
+        height: 100%;
+        list-style: none;
+
+        display:block;
+
+    }
+
+    ul li {
+        display:inline-block;
+    }
+
+    .table_el_g {
+        padding: 1%;
+        width: 30%;
+        min-height: 30%;
+        max-width: 30%;
+        height: 55vh;
+
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        color: white;
+        text-transform: uppercase;
+
+        cursor: pointer;
+    }
+
+    .table_el_g:hover .podr__text{
+        display: flex;
+    }
+
+    .podr__text {
+        font-size: 14px;
+        display: none;
+    }
+
+    .foto_g {
+        width: 100%;
+        height: 80%;
+        background: url("../images/introBack.png") center
+        no-repeat;
+        background-size: cover;
+
+        border-radius: 40px;
+        border: 4px solid #E17521;
+    }
+
+    .podr {
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .games__text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 48px;
+        color: white;
+        text-align: center;
+    }
 }
 
-.main__games:nth-child(n) {
-    --count-of-merch: 80h;
-}
+@media screen and (max-width: 680px){
+    .main__games {
+        margin: 0 auto;
+        width: 90%;
+        height: var(--count-of-merch, 80vh);
+    }
 
-.table_g {
-    width: 100%;
-    height: 100%;
-    list-style: none;
+    .main__games:nth-child(n) {
+        --count-of-merch: 80h;
+    }
 
-    display:block;
+    .table_g {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        list-style: none;
 
-}
+        display:flex;
 
-ul li {
-    display:inline-block;
-}
+    }
 
-.table_el_g {
-    padding: 1%;
-    width: 30%;
-    min-height: 30%;
-    max-width: 30%;
-    height: 55vh;
+    ul li {
+        display:inline-block;
+    }
+
+    .table_el_g {
+        padding: 0 1%;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        height: 55vh;
 
 
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-    color: white;
-    text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        color: white;
+        text-transform: uppercase;
 
-    cursor: pointer;
-}
+        cursor: pointer;
+    }
 
-.table_el_g:hover .podr__text{
-    display: flex;
-}
+    .table_el_g:hover .podr__text{
+        display: flex;
+    }
 
-.podr__text {
-    font-size: 14px;
-    display: none;
-}
+    .podr__text {
+        font-size: 14px;
+        display: none;
+    }
 
-.foto_g {
-    width: 100%;
-    height: 80%;
-    background: url("../images/introBack.png") center
-    no-repeat;
-    background-size: cover;
+    .foto_g {
+        width: 100%;
+        height: 80%;
+        background: url("../images/introBack.png") center
+        no-repeat;
+        background-size: cover;
 
-    border-radius: 40px;
-    border: 4px solid #E17521;
-}
+        border-radius: 40px;
+        border: 4px solid #E17521;
+    }
 
-.podr {
-    height: 20%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
+    .podr {
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
 
-.games__text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 48px;
-    color: white;
-    text-align: center;
+    .games__text {
+        margin: 0 5% 5%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: white;
+    }
 }

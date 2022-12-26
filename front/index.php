@@ -17,6 +17,7 @@
 
     <script src="assets/js/script.js"></script>
     <script src="assets/js/script_main.js"></script>
+    <script src="assets/js/script_registr.js"></script>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -54,7 +55,7 @@
 
 $pages = ["Main.php", "Registr.php", "Profile.php", "Merch.php", "Game.php", "Games.php"];
 
-$numberOfPage = 0;
+$numberOfPage = 2;
 
 require($pages[$numberOfPage]);
 

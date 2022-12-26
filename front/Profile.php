@@ -34,6 +34,6 @@
                     </div>
                 </div>
             </div>
-
+            <button class="button_save">Сохранить</button>
         </div>
 </div>

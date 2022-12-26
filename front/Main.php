@@ -27,7 +27,7 @@
                 <span style="color: #E17521">маленькие</span>, но нам это
                 <span style="color: #E17521">не</span> мешает
             </h2>
-            <div class="info">
+            <div class="info2">
                 <div class="we__left__black">
                     <div class="alina"></div>
                 </div>
@@ -71,9 +71,9 @@
                     <div class="img_team1"></div>
                     <br>
                     <div class="team_text">
-                        <span style="font-size: 26px">Даня</span>
+                        <span class="name_t">Даня</span>
                         <br>
-                        <span style="color: #E17521; font-size: 18px">крашик, программист</span>
+                        <span class="class_t">крашик, программист</span>
                         <br>
                         способен уничтожить комп Ромы
                     </div>
@@ -82,9 +82,9 @@
                     <div class="img_team2"></div>
                     <br>
                     <div class="team_text">
-                        <span style="font-size: 26px">Ульяна</span>
+                        <span class="name_t">Ульяна</span>
                         <br>
-                        <span style="color: #E17521; font-size: 18px">гадалка, художник</span>
+                        <span class="class_t">гадалка, художник</span>
                         <br>
                         за сутки нарисовала 160 спрайтов тараканов
                     </div>
@@ -93,9 +93,9 @@
                     <div class="img_team3"></div>
                     <br>
                     <div class="team_text">
-                        <span style="font-size: 26px">Влад</span>
+                        <span class="name_t">Влад</span>
                         <br>
-                        <span style="color: #E17521; font-size: 18px">креативщик, программист</span>
+                        <span class="class_t">креативщик, программист</span>
                         <br>
                         нарисовал скамейку
                     </div>
@@ -104,9 +104,9 @@
                     <div class="img_team4"></div>
                     <br>
                     <div class="team_text">
-                        <span style="font-size: 26px">Рома</span>
+                        <span class="name_t">Рома</span>
                         <br>
-                        <span style="color: #E17521; font-size: 18px">БИГ-босс, программист</span>
+                        <span class="class_t">БИГ-босс, программист</span>
                         <br>
                         способен сделать бриллиант даже из Фефу-Калипса
                     </div>
@@ -115,9 +115,9 @@
                     <div class="img_team5"></div>
                     <br>
                     <div class="team_text">
-                        <span style="font-size: 26px">Света</span>
+                        <span class="name_t">Света</span>
                         <br>
-                        <span style="color: #E17521; font-size: 18px">завхоз, художник</span>
+                        <span class="class_t">завхоз, художник</span>
                         <br>
                         сгорела на работе
                     </div>
@@ -128,7 +128,7 @@
         <div class="whiteBlock">
             <div class="merch_inner">
                 <div class="left_merch">
-                    <h2 style="color: #E17521; font-size: 44px; height: 20%">Вы можете нас поддержать</h2>
+                    <h2 class="merch_name">Вы можете нас поддержать</h2>
                     <div class="merch_text">
                             <span>
                                 У нас есть даже собственный мерч. Пока что это только стикерпак, но в будущем мы планируем создавать больше интересных вещей по нашим проектам

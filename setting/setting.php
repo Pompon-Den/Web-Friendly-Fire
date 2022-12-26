@@ -1,6 +1,6 @@
 <?php
     // Подключение к базе данных
-    $host = "10.0.173.89";
+    $host = "192.168.0.2";
     $user = "root";
     $password = "";
     $db = "FriendlyFire";
