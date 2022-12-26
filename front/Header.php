@@ -19,7 +19,13 @@
                             </div>
                         </div>
                     </a>-->
-                    <a class = "user__status__link__off" id="userStatus" href="#"></a>
+                    <?php session_start();
+                    if ( $_SESSION["email"] == "" )  { ?>
+                        <a class = "user__status__link__off" id="userStatus" href="../front/Registr.php"></a>
+                    <?php } 
+                    if ( $_SESSION["email"] != "" ) { ?>
+                        <a class = "user__status__link__on" id="userStatus" href="../front/Profile.php"></a>
+                    <?php } ?>
                 </div>
             </div>
         </div>
