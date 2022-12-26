@@ -93,16 +93,21 @@
     }
 
     .button_save {
-        margin: auto;
+        margin: 1% auto;
         width: 50%;
         height: 10%;
         background: none;
         border: 4px solid #E17521;
         border-radius: 40px;
 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         text-align: center;
         color: white;
         font-size: 28px;
+        text-decoration: none;
 
         cursor: pointer;
     }
@@ -208,16 +213,21 @@
     }
 
     .button_save {
-        margin: auto;
+        margin: 1% auto;
         width: 50%;
-        height: 10%;
+        height: 8%;
         background: none;
         border: 4px solid #E17521;
         border-radius: 40px;
 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         text-align: center;
         color: white;
         font-size: 18px;
+        text-decoration: none;
 
         cursor: pointer;
     }
