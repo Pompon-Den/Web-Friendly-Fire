@@ -6,7 +6,7 @@
     }
 
     .main__merch:nth-child(n) {
-        --count-of-merch: 80 h;
+        --count-of-merch: 80 vh;
     }
 
     .table {
@@ -79,7 +79,7 @@
     }
 
     .main__merch:nth-child(n) {
-        --count-of-merch: 80h;
+        --count-of-merch: 80vh;
     }
 
     .table {

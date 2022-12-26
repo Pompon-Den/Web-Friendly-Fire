@@ -1,4 +1,5 @@
-<div style="height: 20vh"></div>
+<div class="ots"></div>
+
 <div class="main_profile">
         <div class="profile_inner">
             <h2 class="profile_name">Профиль</h2>

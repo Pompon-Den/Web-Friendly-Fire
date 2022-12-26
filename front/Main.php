@@ -1,3 +1,5 @@
+<script>document.querySelector('.header').style.position = 'absolute';</script>
+
 <div class="intro"></div>
 <div class="main">
     <h1 class="privet">ДОБРО ПОЖАЛОВАТЬ К FRIENDLY FIRE</h1>
@@ -27,7 +29,7 @@
                 <span style="color: #E17521">маленькие</span>, но нам это
                 <span style="color: #E17521">не</span> мешает
             </h2>
-            <div class="info">
+            <div class="info2">
                 <div class="we__left__black">
                     <div class="alina"></div>
                 </div>
@@ -57,7 +59,7 @@
                             </span>
                     </div>
                     <div class="down_game_list_right">
-                        <a class="button" href="#">Играть</a>
+                        <a class="button" href="index.php?page=Games">Играть</a>
                     </div>
                 </div>
             </div>
@@ -134,7 +136,7 @@
                             </span>
                     </div>
                     <div class="merch_button">
-                        <a class="button">Купить</a>
+                        <a class="button" href="index.php?page=Merch">Купить</a>
                     </div>
                 </div>
                 <div class="right_merch">

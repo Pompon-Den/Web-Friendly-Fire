@@ -24,8 +24,10 @@
     <title>Friendly Fire</title>
 </head>
 <body>
+<div class="button_open_close_zone">
+    <div class="button_open_close" onclick="headerOnOff()"></div>
+</div>
 <header class="header">
-    <div class="container">
         <div class="container">
             <div class="header__inner">
                 <div class="header__logo" ></div>

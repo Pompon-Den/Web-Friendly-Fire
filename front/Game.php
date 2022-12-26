@@ -9,6 +9,8 @@
             $img = "assets/images/".$infogame[3];
 ?>
 
+<script>document.querySelector('.header').style.position = 'absolute';</script>
+
 <div class="intro"></div>
     <h1 class="name"><?=$infogame[1]?></h1>
     <br>
