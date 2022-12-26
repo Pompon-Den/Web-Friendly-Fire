@@ -14,13 +14,14 @@
     <title>Friendly Fire</title>
 </head>
 <body>
+<?php  session_start() ?>
     <header class="header">
         <div class="container">
             <div class="header__inner">
                 <div class="header__logo" src="assets/images/LogoMini.png"></div>
 
                 <div class="nav">
-                    <a class="nav__link" href="#">Гараж</a>
+                    <a class="nav__link" href="#">Гараж<?php echo $_SESSION["email"]; ?></a>
                     <div class="stick"></div>
                     <a class="nav__link" href="#">Проекты</a>
                     <div class="stick"></div>
@@ -35,7 +36,12 @@
                             </div>
                         </div>
                     </a>
-                    <a class = "user__status__link__off" id="userStatus" href="#"></a>
+                    <?php  if ( $_SESSION["email"] == "") { ?>
+                        <a class = "user__status__link__off" id="userStatus" href="#"></a>
+                    <?php } ?>
+                    <?php  if  ( $_SESSION["email"] != "") { ?>
+                        <a class = "user__status__link__on" id="userStatus" href="#"></a>
+                    <?php }  ?>
                 </div>
             </div>
         </div>
@@ -128,7 +134,7 @@
                             <br>
                             <span style="color: #E17521; font-size: 18px">гадалка, художник</span>
                             <br>
-                            за сутки нарисовала 160 спрайтов таракано
+                            за сутки нарисовала 160 спрайтов тараканов
                         </div>
                     </div>
                     <div class="team_el">
