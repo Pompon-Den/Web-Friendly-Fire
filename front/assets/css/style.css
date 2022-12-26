@@ -18,22 +18,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Intro */
-.intro {
-    width: 100%;
-    height: 85vh;
-    background: url("../images/introBack.png") center
-    no-repeat;
-    background-size: cover;
-    border-radius: 0 0 3vh 3vh;
-}
+
 
 /*Header*/
 .header {
+    margin: 3vh 5%;
     position: absolute;
     height: 10vh;
-    left: 5vw;
-    right: 5vw;
-    top: 5vh;
+    width: 90%;
 
     background: rgba(255, 255, 255, 0.55);
     backdrop-filter: blur(50px);
@@ -46,27 +38,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-    margin: 1vh 0 0 0;
+    margin: 0;
 }
 
 .header__inner {
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .header__logo {
-    margin: 0 0 0 3vw;
-    width: 39px;
-    height: 60px;
+    margin: 0 0 0 3%;
+    width: 5%;
+    height: 50%;
 
     background-image: url('../images/LogoMini.png');
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
 }
 
 .nav {
-    font-size: 32px;
+    font-size: 28px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     display: flex;
@@ -110,6 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .users__icons {
+    height: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -158,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .user__status__link__off {
     margin: 0 2vw;
-    height: 40px;
+    height: 100%;
     width: 53px;
 
     background-image: url('../images/UserStatusOff.png');
@@ -169,340 +165,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .user__status__link__on {
     margin: 0 2vw;
-    height: 40px;
+    height: 100%;
     width: 53px;
 
     background-image: url('../images/UserStatusOn.png');
     background-repeat: no-repeat;
     background-size: contain;
     cursor: pointer;
-}
-
-/*Main*/
-
-.main {
-    margin: 1vh 5vw;
-    height: 480vh;
-}
-
-.privet {
-    margin: 1vh 0;
-    color: white;
-    font-size: 48px;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-
-.blocks {
-    margin: 10vh 0;
-
-    width: 90vw;
-    height: 90vh;
-}
-
-.whiteBlock {
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
-    background: #FFF0E7;
-    border-radius: 40px;
-}
-
-.blackBlock {
-    padding-top: 5%;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.info {
-    width: 90%;
-    height: 90%;
-
-    display: flex;
-    justify-content: space-between;
-}
-
-.leftWe {
-    width: 50%;
-    height: 100%;
-}
-
-.we__question {
-    margin: 10% 15%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 48px;
-    color: #E17521;
-}
-
-.we__text {
-    margin: 0 15%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-}
-
-.rightWe {
-    width: 50%;
-    height: 100%;
-}
-
-.rightImage {
-    margin: 25% 10%;
-
-    width: 100%;
-    height: 100%;
-
-    background-image: url('../images/We.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 10px;
-}
-
-.we__question__black {
-    margin: 0 30%;
-    height: 10%;
-    width: 40%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 48px;
-    color: white;
-}
-
-.we__left__black {
-    width: 50%;
-    height: 100%;
-}
-
-.we__right__black {
-    width: 50%;
-    height: 100%;
-}
-
-.alina {
-    margin: 10% 5%;
-    width: 70%;
-    height: 70%;
-    background-image: url('../images/Alina.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 10px;
-}
-
-.we__block__black {
-    margin: 20% 5%;
-    width: 100%;
-    height: 40%;
-
-    border: 4px solid #E17521;
-    border-radius: 40px;
-}
-
-.we__text__black {
-    margin: 6.25% 12.5%;
-    width: 80%;
-    height: 75%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    color: white;
-    text-align: center;
-}
-
-.game_list__inner {
-    width: 100%;
-    height: 100%;
-}
-
-.game_list_name {
-    padding: 5%;
-    height: 30%;
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    color: #E17521;
-    text-indent: 2%;
-}
-
-.game_list {
-    width: 100%;
-    height: 35%;
-    display: grid;
-    grid-column-gap: 0;
-    grid-template-columns: repeat(4, 100%);
-    grid-template-rows: 100%;
-    overflow: hidden;
-    scroll-snap-type: x mandatory;
-}
-
-.img {
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    width: 40%;
-    background-image: url('../images/We.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.down_game_list {
-    margin: 0 auto;
-    width: 90%;
-    height: 35%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.down_game_list_left {
-    height: 100%;
-    width: 60%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-    color: black;
-    word-wrap: normal;
-    display: flex;
-    align-items: center;
-}
-
-.down_game_list_right {
-    height: 100%;
-    width: 30%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.button {
-    width: 70%;
-    height: 30%;
-    background: #E17521;
-    border: 4px solid #252525;
-    border-radius: 51px;
-
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-    color: white;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    cursor: pointer;
-}
-
-.name_team {
-    height: 10%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #E17521;
-    font-size: 36px;
-}
-
-.team_container {
-    padding-top: 5%;
-    width: 100%;
-    height: 90%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.team_el {
-    width: 17%;
-    height: 95%;
-}
-
-.img_team2 {
-    width: 100%;
-    height: 60%;
-    background-image: url("../images/Ulyana.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.img_team3 {
-    width: 100%;
-    height: 60%;
-    background-image: url("../images/Vlad.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.img_team4 {
-    width: 100%;
-    height: 60%;
-    background-image: url("../images/Roma.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.img_team5 {
-    width: 100%;
-    height: 60%;
-    background-image: url("../images/Sveta.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.img_team1 {
-    width: 100%;
-    height: 60%;
-    background-image: url("../images/Danil.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.team_text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-    color: white;
-    text-align: center;
-}
-
-.merch_inner {
-    margin: auto;
-    width: 90%;
-    height: 100%;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.left_merch {
-    width: 50%;
-    height: 80%;
-
-    color: black;
-    font-size: 24px;
-}
-
-.merch_text {
-    margin: 10% 0;
-    height: 40%;
-    width: 70%;
-    font-size: 22px;
-    word-wrap: normal;
-
-}
-.merch_button {
-    display: flex;
-    height: 35%;
-    width: 70%;
-}
-
-.right_merch {
-    margin: auto;
-    width: 50%;
-    height: 90%;
-
-    display: flex;
-    align-items: center;
-}
-
-.merch_img {
-    margin: auto;
-    width: 100%;
-    height: 80%;
-
-    background-image: url('../images/Merch.png');
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 /*Footer*/
@@ -583,250 +252,4 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     background-size: contain;
     cursor: pointer;
-}
-
-/* Registration */
-
-.main__registr {
-    margin: 0 auto;
-    width: 99vw;
-    height: 70vh;
-}
-
-.lapa {
-    position: absolute;
-    margin: 10% 8%;
-    width: 20%;
-    height: 50%;
-    background-image: url('../images/Lapa.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.input__text {
-    margin: 10% 0 1% 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 48px;
-    color: white;
-    text-align: center;
-}
-
-.block {
-    margin: 0 auto;
-    width: 35%;
-    height: 70%;
-    border: 4px solid #E17521;
-    border-radius: 40px;
-
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.change {
-    margin: 0 auto 5% auto;
-    width: 60%;
-    height: 20%;
-    display: flex;
-    justify-content: space-between;
-
-    font-family: 'Roboto', sans-serif;
-    font-size: 28px;
-    color: white;
-    text-align: center;
-}
-
-.change__input {
-    margin: auto 0;
-    cursor: pointer;
-}
-
-.change__registration {
-    margin: auto 0;
-    cursor: pointer;
-}
-
-.form {
-    margin: 0 auto 2% auto;
-    width: 70%;
-    height: 80%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.input__zone {
-    border: none;
-    margin: 2% 0;
-    height: 30%;
-    width: 100%;
-    background: #5B5B5B;
-    border-radius: 10px;
-
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    text-indent: 5%;
-}
-
-.input__zone::placeholder {color: #ADADAD;}
-
-.button_reg {
-    margin: 10% auto;
-    border: none;
-    background: none;
-
-    font-family: 'Roboto', sans-serif;
-    font-size: 32px;
-    text-indent: 0;
-    color: white;
-
-    text-align: center;
-
-    cursor: pointer;
-}
-
-.main__merch {
-    margin: 30vh auto;
-    width: 80%;
-    height: var(--count-of-merch, 80vh);
-}
-
-.main__merch:nth-child(n) {
-    --count-of-merch: 80h;
-}
-
-.table {
-    width: 100%;
-    height: 100%;
-    list-style: none;
-
-    display:block;
-
-}
-
-ul li {
-    display:inline-block;
-}
-
-.table_el {
-    padding: 1%;
-    width: 30%;
-    min-height: 30%;
-    max-width: 30%;
-    height: 55vh;
-
-
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-    color: white;
-    text-transform: uppercase;
-
-    cursor: pointer;
-}
-
-.table_el:hover .buy__text{
-    display: flex;
-}
-
-.buy__text {
-    display: none;
-}
-
-.foto {
-    width: 100%;
-    height: 80%;
-    background: url("../images/introBack.png") center
-    no-repeat;
-    background-size: cover;
-
-    border-radius: 40px;
-    border: 4px solid #E17521;
-}
-
-.buy {
-    display: flex;
-}
-
-.merch__text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 48px;
-    color: white;
-    text-align: center;
-}
-
-/*Game*/
-
-.name{
-    margin: 2vh auto;
-    font-family: 'Roboto', sans-serif;
-    font-size: 52px;
-    color: white;
-    text-align: center;
-}
-
-.main__game {
-    margin: 0 auto;
-    width: 90%;
-    height: 80vh;
-}
-
-.left_game {
-    margin: auto 0;
-    width: 55%;
-    height: 100%;
-}
-
-.right_game {
-    display: flex;
-    align-items: center;
-    width: 40%;
-    height: 100%;
-}
-
-.opis__text {
-    width: 100%;
-    height: 15%;
-    font-size: 44px;
-    color: #E17521;
-}
-
-.in_white {
-    padding: 4% 0;
-    margin: auto;
-    height: 100%;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.game__text {
-    width: 100%;
-    height: 70%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 28px;
-    color: black;
-    word-wrap: break-word;
-}
-
-.link__zone {
-    width: 100%;
-    height: 15%;
-}
-.itch {
-    height: 90%;
-    width: 100%;
-    background-image: url('../images/itchIcon.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    cursor: pointer;
-}
-
-.imageGame {
-    height: 70%;
-    width: 100%;
-    background-image: url('../images/introBack.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
