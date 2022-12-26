@@ -1,0 +1,333 @@
+.intro {
+    width: 100%;
+    height: 85vh;
+    background: url("../images/introBack.png") center
+    no-repeat;
+    background-size: cover;
+    border-radius: 0 0 3vh 3vh;
+}
+
+.main {
+    margin: 1vh 5vw;
+    height: 480vh;
+}
+
+.privet {
+    margin: 1vh 0;
+    color: white;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.blocks {
+    margin: 10vh 0;
+
+    width: 90vw;
+    height: 90vh;
+}
+
+.whiteBlock {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: #FFF0E7;
+    border-radius: 40px;
+}
+
+.blackBlock {
+    padding-top: 5%;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    width: 90%;
+    height: 90%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftWe {
+    width: 50%;
+    height: 100%;
+}
+
+.we__question {
+    margin: 10% 15%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: #E17521;
+}
+
+.we__text {
+    margin: 0 15%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.rightWe {
+    width: 50%;
+    height: 100%;
+}
+
+.rightImage {
+    margin: 25% 10%;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: url('../images/We.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+}
+
+.we__question__black {
+    margin: 0 30%;
+    height: 10%;
+    width: 40%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: white;
+}
+
+.we__left__black {
+    width: 50%;
+    height: 100%;
+}
+
+.we__right__black {
+    width: 50%;
+    height: 100%;
+}
+
+.alina {
+    margin: 10% 5%;
+    width: 70%;
+    height: 70%;
+    background-image: url('../images/Alina.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+}
+
+.we__block__black {
+    margin: 20% 5%;
+    width: 100%;
+    height: 40%;
+
+    border: 4px solid #E17521;
+    border-radius: 40px;
+}
+
+.we__text__black {
+    margin: 6.25% 12.5%;
+    width: 80%;
+    height: 75%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.game_list__inner {
+    width: 100%;
+    height: 100%;
+}
+
+.game_list_name {
+    padding: 5%;
+    height: 30%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #E17521;
+    text-indent: 2%;
+}
+
+.game_list {
+    width: 100%;
+    height: 35%;
+    display: grid;
+    grid-column-gap: 0;
+    grid-template-columns: repeat(4, 100%);
+    grid-template-rows: 100%;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+}
+
+.img {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 40%;
+    background-image: url('../images/We.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.down_game_list {
+    margin: 0 auto;
+    width: 90%;
+    height: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.down_game_list_left {
+    height: 100%;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: black;
+    word-wrap: normal;
+    display: flex;
+    align-items: center;
+}
+
+.down_game_list_right {
+    height: 100%;
+    width: 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 70%;
+    height: 30%;
+    background: #E17521;
+    border: 4px solid #252525;
+    border-radius: 51px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.name_team {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E17521;
+    font-size: 36px;
+}
+
+.team_container {
+    padding-top: 5%;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_el {
+    width: 17%;
+    height: 95%;
+}
+
+.img_team2 {
+    width: 100%;
+    height: 60%;
+    background-image: url("../images/Ulyana.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img_team3 {
+    width: 100%;
+    height: 60%;
+    background-image: url("../images/Vlad.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img_team4 {
+    width: 100%;
+    height: 60%;
+    background-image: url("../images/Roma.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img_team5 {
+    width: 100%;
+    height: 60%;
+    background-image: url("../images/Sveta.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img_team1 {
+    width: 100%;
+    height: 60%;
+    background-image: url("../images/Danil.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.team_text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+.merch_inner {
+    margin: auto;
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_merch {
+    width: 50%;
+    height: 80%;
+
+    color: black;
+    font-size: 24px;
+}
+
+.merch_text {
+    margin: 10% 0;
+    height: 40%;
+    width: 70%;
+    font-size: 22px;
+    word-wrap: normal;
+
+}
+.merch_button {
+    display: flex;
+    height: 35%;
+    width: 70%;
+}
+
+.right_merch {
+    margin: auto;
+    width: 50%;
+    height: 90%;
+
+    display: flex;
+    align-items: center;
+}
+
+.merch_img {
+    margin: auto;
+    width: 100%;
+    height: 80%;
+
+    background-image: url('../images/Merch.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
