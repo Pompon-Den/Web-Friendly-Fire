@@ -7,7 +7,7 @@ function test_input($data) {
     $data = htmlspecialchars($data);
     return $data;
 }
-//echo  $_SESSION["email"];
+
 $email = $password = "";
 
 $email = test_input($_POST["email"]);
@@ -27,6 +27,5 @@ $user = $result->fetch_assoc();
        header('Location: ../front/index.php');
     }
 
-   //echo  $_SESSION["email"];
 $connect->close();
 ?>
