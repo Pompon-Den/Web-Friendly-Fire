@@ -12,13 +12,6 @@
                 </div>
 
                 <div class="users__icons">
-                    <!--<a class = "user__box__link" href="#">
-                        <div class="icon">
-                            <div class="circle">
-                                <div class="circle__text">0</div>
-                            </div>
-                        </div>
-                    </a>-->
                     <?php session_start();
                     if ( $_SESSION["email"] == "" )  { ?>
                         <a class = "user__status__link__off" id="userStatus" href="../front/Registr.php"></a>

@@ -1,23 +1,5 @@
-<!DOCTYPE HTML>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <title>Регистрация</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-      <link rel="stylesheet" href="assets/css/style_rigistr.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <script src="assets/js/script.js"></script>
-      <script src="assets/js/script_registr.js"></script>
-      <meta name="description" content="Регистрация нового пользователя"/>
-  </head>
-  <body>
-  <?php
-  include 'Header.php';
-  ?>
-
-  <div class="main__registr" id="block">
+<div style="height: 20vh"></div>
+<div class="main__registr" id="block">
     <div class="lapa"></div>
     <h1 class="input__text">Личный кабинет</h1>
     <div class="block">
@@ -44,10 +26,3 @@
       </script>
     </div>
   </div>
-
-
-  <?php
-  include 'Footer.php';
-  ?>
-  </body>
-</html>
