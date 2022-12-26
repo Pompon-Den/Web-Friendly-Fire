@@ -5,9 +5,12 @@
     $password = "";
     $db = "FriendlyFire";
     $connect = mysqli_connect($host, $user, $password, $db);
-    //die("aaa");
+
     if (!$connect) 
         die("Connection Error");
 
     $connect->set_charset("utf8");
+
+    session_start();
+   // $_SESSION["email"] = "";
 ?>
