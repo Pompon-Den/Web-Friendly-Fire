@@ -2,6 +2,8 @@
 
 <div class="ots"></div>
 
+<div class="ots"></div>
+
 <div class="main__merch">
     <h1 class="merch__text">Маркет</h1>
     <ul class="table">
@@ -10,6 +12,7 @@
     <?php foreach ($product as $prod) { 
         $img = "assets/images/".$prod[4];?>
         <li class="table_el">
+        <a class="delete"></a>
             <? if ( $_SESSION["email"] == "" )  {?>
             <a href="index.php?page=Registr"><img class="foto" src=<?=$img?>></img></a> 
             <?}?>
