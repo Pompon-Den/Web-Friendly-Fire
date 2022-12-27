@@ -18,3 +18,12 @@ function headerOnOff() {
         document.querySelector('.header').style.display = 'block';
     }
 }
+
+function addMerch() {
+    if(document.querySelector('.admin_merch').style.display === 'block') {
+        document.querySelector('.admin_merch').style.display = 'none';
+    }
+    else {
+        document.querySelector('.admin_merch').style.display = 'block';
+    }
+}

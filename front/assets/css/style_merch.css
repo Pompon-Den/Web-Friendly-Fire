@@ -9,6 +9,38 @@
         --count-of-merch: 80 vh;
     }
 
+    .admin_merch {
+        margin: 10% 15%;
+        position: absolute;
+
+        width: 50%;
+        height: 50%;
+
+        z-index: 500;
+    }
+
+    .admin_merch_inner {
+        background: white;
+        border-radius: 40px;
+        border: none;
+
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .admin_merch_inner_inner {
+        width: 80%;
+        height: 80%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
     .table {
         width: 100%;
         height: 100%;
@@ -45,11 +77,12 @@
     .delete {
         position: absolute;
         margin: 2vh 2vh;
-        width: 5vw;
-        height: 5vw;
+        width: 3vw;
+        height: 3vw;
         background: url("../images/x.png") center
         no-repeat;
         background-size: contain;
+        border-radius: 10px;
     }
 
     .buy__text {
@@ -59,7 +92,6 @@
     .foto {
         width: 100%;
         height: 80%;
-        background: url("../images/introBack.png") center no-repeat;
         background-size: cover;
 
         border-radius: 40px;
@@ -90,6 +122,38 @@
 
     .main__merch:nth-child(n) {
         --count-of-merch: 80vh;
+    }
+
+    .admin_merch {
+        margin: 15% 5%;
+        position: absolute;
+
+        width: 90%;
+        height: 90%;
+
+        z-index: 500;
+    }
+
+    .admin_merch_inner {
+        background: white;
+        border-radius: 40px;
+        border: none;
+
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .admin_merch_inner_inner {
+        width: 80%;
+        height: 80%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     .table {
@@ -139,6 +203,7 @@
         background: url("../images/x.png") center
         no-repeat;
         background-size: contain;
+        border-radius: 10px;
     }
 
     .foto {

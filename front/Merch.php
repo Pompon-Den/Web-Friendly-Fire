@@ -3,6 +3,18 @@
 <div class="ots"></div>
 
 <div class="main__merch">
+    <!--Нижнее только для админов-->
+    <div class="admin_merch" style="display: none">
+        <div class="admin_merch_inner">
+            <div class="admin_merch_inner_inner">
+                <input class="textBox" placeholder="Название">
+                <input class="textBox" placeholder="Ссылка">
+                <input class="textBox" placeholder="Цена">
+                <button class="textBox" style="height: 30%"><img src="assets/images/upload.png" style="height: 80%"></button>
+                <button class="textBox" onclick="addMerch()">Ок</button>
+            </div>
+        </div>
+    </div>
     <h1 class="merch__text">Маркет</h1>
     <ul class="table">
         <?php $result = mysqli_query($connect, " SELECT * FROM `product` ");
@@ -24,5 +36,9 @@
             </div>
         </li>
         <? } ?>
+        <!--Нижнее только для админов-->
+        <li class="table_el" onclick="addMerch()">
+            <a><img class="foto" src="assets/images/Plus.png"></img></a>
+        </li>
     </ul>
 </div>
