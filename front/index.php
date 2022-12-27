@@ -52,13 +52,15 @@
 </header>
 
 <?php
-$href = $_GET["page"];
+/*$href = $_GET["page"];
 if (isset($href) ) {
     require($href.".php");
 }
 else {
     require("Profile.php");
 }
+*/
+include 'Game.php';
 ?>
 
 <footer class="footer">
