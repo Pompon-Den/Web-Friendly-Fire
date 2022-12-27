@@ -44,7 +44,7 @@ if (empty($_POST["email"])) {
     }
     else {
     mysqli_query($connect, " INSERT INTO `guest` (`id`, `login`, `password`, `type`) VALUES (NULL,  '$email', '$password', 'auth');");
-    header('Location: ../front/Registr.php');
+    header('Location: ../front/index.php?page=Registr');
     }   
 }
    else {

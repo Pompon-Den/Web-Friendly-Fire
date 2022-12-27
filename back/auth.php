@@ -24,7 +24,7 @@ $user = $result->fetch_assoc();
     }
     else {
         $_SESSION["email"] = $email;
-       header('Location: ../front/index.php');
+        header('Location: ../front/index.php?page=Profile');
     }
 
 $connect->close();
