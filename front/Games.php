@@ -19,5 +19,8 @@
             </div>
         </li>
          <? }?>
+        <li class="table_el_g">
+            <a href="#"><img class="foto_g" src="assets/images/Plus.png"></img></a>
+        </li>
     </ul>
 </div>
