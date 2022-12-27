@@ -46,11 +46,16 @@
         <div class="whiteBlock">
             <div class="game_list__inner">
                 <h2 class="game_list_name">Что мы можем вам предожить?</h2>
-                <div class="game_list">
-                    <div class="img"></div>
-                    <div class="img"></div>
-                    <div class="img"></div>
-                    <div class="img"></div>
+                <?php require_once "../setting/setting.php";?>
+               <? $result = mysqli_query($connect, " SELECT * FROM `games`;");
+                  $info = $result->fetch_all(); 
+                  $count = mysqli_query($connect, "SELECT COUNT(*) FROM `games`;");
+                  ?>
+                <div class="game_list" style="grid-template-columns: repeat(<?$count?>, 35%);">
+                <? foreach ($info as $game) {
+                    $img = "assets/images/".$game[3];?> 
+                    <img class="img" src=<?=$img?>></img> 
+                    <?}?> 
                 </div>
                 <div class="down_game_list">
                     <div class="down_game_list_left">

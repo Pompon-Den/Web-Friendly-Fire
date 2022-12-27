@@ -1,7 +1,7 @@
 <?php require_once "../setting/setting.php";?>
 <?php
     $gamename = $_GET["game"];
-    print_r($gamename);
+    //print_r($gamename);
     $result = mysqli_query($connect, " SELECT * FROM `games`;");
     $info = $result->fetch_all(); 
     foreach ($info as $infogame) {

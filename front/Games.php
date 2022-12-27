@@ -21,6 +21,10 @@
          <? }?>
         <li class="table_el_g">
             <a href="#"><img class="foto_g" src="assets/images/Plus.png"></img></a>
+            <h3></h3>
+            <div class="buy">
+                <span class="podr__text" style="color: #E17521;"></span>
+            </div>
         </li>
     </ul>
 </div>
