@@ -11,9 +11,7 @@
     <link rel="stylesheet" href="assets/css/style_game.css">
     <link rel="stylesheet" href="assets/css/style_games.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="assets/fonts/Roboto-Medium.ttf" rel="stylesheet">
 
     <script src="assets/js/script.js"></script>
     <script src="assets/js/script_main.js"></script>
