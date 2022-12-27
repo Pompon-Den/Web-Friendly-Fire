@@ -42,6 +42,16 @@
         display: flex;
     }
 
+    .delete {
+        position: absolute;
+        margin: 2vh 2vh;
+        width: 5vw;
+        height: 5vw;
+        background: url("../images/x.png") center
+        no-repeat;
+        background-size: contain;
+    }
+
     .buy__text {
         display: none;
     }
@@ -119,6 +129,16 @@
 
     .buy__text {
         display: none;
+    }
+
+    .delete {
+        position: absolute;
+        margin: 2vh 2vh;
+        width: 10vw;
+        height: 10vw;
+        background: url("../images/x.png") center
+        no-repeat;
+        background-size: contain;
     }
 
     .foto {
