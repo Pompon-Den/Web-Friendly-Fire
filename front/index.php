@@ -16,6 +16,7 @@
     <script src="assets/js/script.js"></script>
     <script src="assets/js/script_main.js"></script>
     <script src="assets/js/script_registr.js"></script>
+
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -36,6 +37,8 @@
                     <a class="nav__link" href="index.php?page=Games">Проекты</a>
                     <div class="stick"></div>
                     <a class="nav__link" href="index.php?page=Merch">Магазин</a>
+                    <div class="stick"></div>
+                    <a class="nav__link" href="index.php?page=Merch">Крестики-нолики</a>
                 </div>
 
                 <div class="users__icons">
@@ -60,7 +63,7 @@ else {
     require("Profile.php");
 }
 */
-include 'Game.php';
+include 'Merch.php';
 ?>
 
 <footer class="footer">
