@@ -20,6 +20,7 @@ function headerOnOff() {
 }
 
 function addMerch() {
+    console.log(1)
     if(document.querySelector('.admin_merch').style.display === 'block') {
         document.querySelector('.admin_merch').style.display = 'none';
     }

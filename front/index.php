@@ -57,7 +57,7 @@ if (isset($href) ) {
     require($href.".php");
 }
 else {
-    require("Profile.php");
+    require("index.php");
 }
 ?>
 

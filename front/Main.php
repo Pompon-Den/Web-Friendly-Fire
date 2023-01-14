@@ -51,7 +51,7 @@
                   $info = $result->fetch_all(); 
                   $count = mysqli_query($connect, "SELECT COUNT(*) FROM `games`;");
                   ?>
-                <div class="game_list" style="grid-template-columns: repeat(<?$count?>, 35%);">
+                <div class="game_list" style="@media screen and (min-width: 680px){grid-template-columns: repeat(<?$count?>, 35%);} @media screen and (max-width: 680px){grid-template-columns: repeat(<?$count?>, 100%);}">
                 <? foreach ($info as $game) {
                     $img = "assets/images/".$game[3];?> 
                     <img class="img" src=<?=$img?>></img> 

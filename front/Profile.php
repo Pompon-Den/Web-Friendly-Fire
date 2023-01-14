@@ -18,10 +18,10 @@ if ($_SESSION["email"] != "" ) {
                         <div class="profile_name_sub_sub">E-mail</div>
                         <div class="input"  type="email"><?=$data[2]?></div>
                     </div>
-            <form   action="../back/prof.php"  method="post" >
+            <form  style="width: 100%; height: 100%" action="../back/prof.php"  method="post" >
                         <div class="input_block">
                             <div class="profile_name_sub_sub">Дата рождения</div>
-                            <input class="input" type="data" name="data"<? if(empty($data[4])) {?>placeholder="00.00.00"<?} else { ?> placeholder=<?=$data[4]?>><span></span><?}?></input>
+                            <input class="input" type="data" name="data"<? if(empty($data[4])) {?>placeholder="год.месяц.день"<?} else { ?> placeholder=<?=$data[4]?>><span></span><?}?></input>
                         </div>
                     </div>
                 </div>

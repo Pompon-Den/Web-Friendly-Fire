@@ -1,7 +1,6 @@
 <?php require_once "../setting/setting.php";?>
 <?php
     $gamename = $_GET["game"];
-    //print_r($gamename);
     $result = mysqli_query($connect, " SELECT * FROM `games`;");
     $info = $result->fetch_all(); 
     foreach ($info as $infogame) {
@@ -12,8 +11,6 @@
 <script>document.querySelector('.header').style.position = 'absolute';</script>
 
 <div class="intro">
-    <!--Нижний только для админов-->
-    <a class="upload" id="admin" style="margin: 25% 45%"></a>
 </div>
     <h1 class="name"><?=$infogame[1]?></h1>
     <br>
@@ -22,13 +19,14 @@
             <div class="in_white">
                 <div class="left_game">
                     <h2 class="opis__text">Описание</h2>
+
                     <div class="game__text" id="test">
                         <span>
                             <?=$infogame[2]?>
                         </span>
                     </div>
                     <!--Нижний только для админов-->
-                    <div class="game__text" id="admins" style="display: block">
+                    <div class="game__text" id="admins" style="display: none">
                         <div class="admin">
                             <div class="admin_block">
                                 <textarea class="textBox" placeholder="Описание"></textarea>
@@ -50,7 +48,7 @@
                 <div class="right_game">
                     <img class="imageGame" src=<?=$img?>></img>
                     <!--Нижний только для админов-->
-                    <a class="upload" id="admin"></a>
+                    <a class="upload" id="admin" style="display: none;"></a>
                 </div>
             </div>
         </div>
