@@ -8,6 +8,10 @@
 
     <link href="front/assets/fonts/Roboto-Medium.ttf" rel="stylesheet">
 
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/vader/jquery-ui.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+
     <title>XZeroGame</title>
 </head>
 <body>
@@ -48,9 +52,66 @@
 
                 <div class="game_zone">
                     <div class="game_zone_inner">
+                        <h1 class="out_content"><span>Крестики-нолики</span></h1>
                         <div class="content">
+                            <button class="create_button" style="display: none">
+                                Создать комнату
+                            </button>
+                            <table class="game_table">
+                                <tr>
+                                    <td>
+                                        <button class="game_cell" id="cell00">
 
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button class="game_cell" id="cell01">
+
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button class="game_cell" id="cell02">
+
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <button class="game_cell" id="cell10">
+
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button class="game_cell" id="cell11">
+
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button class="game_cell" id="cell12">
+
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <button class="game_cell" id="cell20">
+
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button class="game_cell" id="cell21">
+
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button class="game_cell" id="cell22">
+
+                                        </button>
+                                    </td>
+                                </tr>
+                            </table>
                         </div>
+                        <h2 class="out_content"><span>00:30</span></h2>
                     </div>
                 </div>
 
@@ -82,6 +143,7 @@
                             <div class="text_in_table"><h5>Количество сыгранных игр</h5></div>
                             <div class="text_in_table"><h5>Количество побед</h5></div>
                             <div class="text_in_table"><h5>Количество поражений</h5></div>
+                            <div class="text_in_table"><h5>Количество ничьих</h5></div>
                         </div>
                         <ul class="rate_container">
                             <li class="row">
@@ -90,6 +152,7 @@
                                 <div class="text_in_table">3213</div>
                                 <div class="text_in_table">842</div>
                                 <div class="text_in_table">314</div>
+                                <div class="text_in_table">0</div>
                             </li>
                         </ul>
                     </div>
