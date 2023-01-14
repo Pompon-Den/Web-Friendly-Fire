@@ -55,24 +55,13 @@
 </header>
 
 <?php
-<<<<<<< HEAD
 $href = $_GET["page"];
-=======
-/*$href = $_GET["page"];
->>>>>>> c720b3c88dd26e4042a69a61a30a1b91b50f0766
 if (isset($href) ) {
     require($href.".php");
 }
 else {
-<<<<<<< HEAD
     require("index.php");
 }
-=======
-    require("Profile.php");
-}
-*/
-include 'Merch.php';
->>>>>>> c720b3c88dd26e4042a69a61a30a1b91b50f0766
 ?>
 
 <footer class="footer">

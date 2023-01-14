@@ -1,9 +1,5 @@
 <?php require_once "../setting/setting.php";?>
-<<<<<<< HEAD
 <?session_start()?>
-=======
-
->>>>>>> c720b3c88dd26e4042a69a61a30a1b91b50f0766
 <div class="ots"></div>
 
 <div class="main__games">
@@ -23,18 +19,14 @@
              <?php foreach ($games as $game) { 
                 $img = "assets/images/".$game[3];?>
         <li class="table_el_g">
-<<<<<<< HEAD
             <? if ($stat == "admin" && $_SESSION["email"] != "" ) { ?> <a class="delete"></a> <? } ?>
-=======
             <a class="delete"></a>
->>>>>>> c720b3c88dd26e4042a69a61a30a1b91b50f0766
             <a href="index.php?page=Game&game=<?=$game[1]?>"><img class="foto_g" src=<?=$img?>></img></a>
             <h3><?=$game[1]?></h3>
             <div class="buy">
                 <span class="podr__text" style="color: #E17521;">Подробнее</span>
             </div>
         </li>
-<<<<<<< HEAD
         <?}?>
          <?php if ($stat == "admin" && $_SESSION["email"] != "" ) {?>
         <li class="table_el_g">
@@ -45,11 +37,8 @@
             </div>
         </li>
         <?}?>
-=======
-         <? }?>
         <li class="table_el_g">
             <a href="#"><img class="foto_g" src="assets/images/Plus.png"></img></a>
         </li>
->>>>>>> c720b3c88dd26e4042a69a61a30a1b91b50f0766
     </ul>
 </div>

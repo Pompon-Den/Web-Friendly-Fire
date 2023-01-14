@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <? session_start();
 if ($_SESSION["email"] != "" ) {
 ?>
@@ -6,10 +5,8 @@ if ($_SESSION["email"] != "" ) {
 <?php require_once "../setting/setting.php";?>
 <?php $result = mysqli_query($connect, " SELECT * FROM `guest` ;");
             $people = $result->fetch_all(); ?>
-=======
 <div class="ots"></div>
 
->>>>>>> c720b3c88dd26e4042a69a61a30a1b91b50f0766
 <div class="main_profile">
         <div class="profile_inner">
             <? foreach ($people as $data) {
@@ -49,13 +46,10 @@ if ($_SESSION["email"] != "" ) {
                         </div>
                     </div>
                 </div>
-<<<<<<< HEAD
                 <button class="button_save"><span>Сохранить</span></button>
             </form>
-=======
             </div>
             <a class="button_save"><span>Сохранить</span></a>
->>>>>>> c720b3c88dd26e4042a69a61a30a1b91b50f0766
             <a class="button_save"  href = "../back/signOut.php" ><span>Выход</span></a>
         </div>
 </div>
