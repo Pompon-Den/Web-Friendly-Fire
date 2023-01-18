@@ -12,13 +12,15 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
 
-    <title>XZeroGame</title>
+    <title>XOGame</title>
 </head>
 <body>
     <div class="container">
         <header class="header">
             <div class="header_inner">
-                <a class="header_logo"></a>
+                <div class="header_logo_container">
+                    <a class="header_logo"></a>
+                </div>
                 <a class="game_name">
                     <h3>X-O-Game</h3>
                 </a>
